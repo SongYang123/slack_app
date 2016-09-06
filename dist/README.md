@@ -1,14 +1,14 @@
-# App name
+# slack_app
 
-[brief description of the app]
+Allows agents to ask for help through slack.
 
-### The following information is displayed:
+## Get started
 
-* info1
-* info2
-* info3
+- `zat server --path=./dist/`
 
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
+## Custom files
+[iframe.html](https://github.com/SongYang123/slack_app/blob/master/dist/assets/iframe.html)
 
-### Screenshot(s):
-[put your screenshots down here.]
+[main.js](https://github.com/SongYang123/slack_app/blob/master/dist/assets/main.js)
+
+[main.css](https://github.com/SongYang123/slack_app/blob/master/dist/assets/main.css)
