@@ -138,7 +138,7 @@ function generateMessage() {
 	msg += 'Hello, ' + target[parseInt($('#select_dropdown').val())].name + '.\n';
 	msg += 'Agent "' + username + '" would like your help on chat "';
 	msg += chat_id + '" with the following note:\n';
-	msg += $('#input_note').val();
+	msg += $('#textarea_note').val();
 	return msg;
 }
 
