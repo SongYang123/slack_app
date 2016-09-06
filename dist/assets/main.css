@@ -1,0 +1,29 @@
+* {
+	font-family: Arial;
+}
+
+.btn_refresh {
+	width: 100%;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+select {
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 100%;
+	height: 50%;
+	margin-bottom: 10px;
+}
+
+.btn_send {
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+.message_status {
+	font-size: 15px
+}

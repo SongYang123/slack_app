@@ -1,0 +1,20 @@
+{
+  "name": "slack_chat_sidebar",
+  "author": {
+    "name": "ysong",
+    "email": "ysong@zendesk.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "zendesk": {
+      "ticket_sidebar": "assets/iframe.html"
+    },
+    "zopim": {
+      "chat_sidebar": "assets/iframe.html"
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}

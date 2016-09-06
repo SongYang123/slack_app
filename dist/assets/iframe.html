@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link href="main.css" rel="stylesheet">
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- https://github.com/zendesk/zendesk_app_framework_sdk -->
+		<script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+
+		<div>
+			<button id="btn_refresh" class="btn_refresh">Refresh</button>
+		</div>
+
+		<div id="div_error" style="display:none">Error</div>
+
+		<div id="div_slack_app" style="display:none">
+			<div><select id="select_dropdown"></select></div>
+
+			<div><textarea type="text" id="input_note"></textarea></div>
+
+			<div>
+				<button id="btn_send" class="btn_send">Send</button>
+				<span id="span_status" class="message_status"></span>
+			</div>
+		</div>
+
+	</body>
+</html>
