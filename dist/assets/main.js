@@ -81,6 +81,7 @@ function updateTarget(data) {
 }
 
 function updateDropdown() {
+	$('#select_dropdown').children().remove();
 	for (var i in target) {
 		$('#select_dropdown').append($('<option>', {
 			value: i,
@@ -141,4 +142,3 @@ function generateMessage() {
 	msg += $('#textarea_note').val();
 	return msg;
 }
-
