@@ -30,7 +30,7 @@ var
 	username = null,
 	chat_id = null,
 
-	target = [],
+	target = null,
 
 	message_id = 0,
 	message_status = null;
@@ -70,6 +70,7 @@ function updateTarget(data) {
 		ims = data.ims,
 		users_temp = {};
 
+	target = [];
 	for (var i in users) {
 		users_temp[users[i].id] = users[i].name;
 	}
